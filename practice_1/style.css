@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+#fblogo{
+    transform: rotate(45deg);
+}
+
 #parent{
     background-color: greenyellow;
     height: 100vh;
@@ -30,13 +34,42 @@
 #left-top{
     background: pink;
     height: 20%;
+    padding-left: 40px;
+    padding-top: 40px;
 }
 #left-bottom{
     background: lightblue;
     height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
+#fb-moto{
+    font-size: 44px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.input-txt{
+    width: 500px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#login-btn{
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 35px;
+}
 
 
 #right{
