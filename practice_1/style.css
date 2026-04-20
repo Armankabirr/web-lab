@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#parent{
+    background-color: greenyellow;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#main{
+    background: red;
+    height: 90%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#left{
+    background-color: aqua;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#left-top{
+    background: pink;
+    height: 20%;
+}
+#left-bottom{
+    background: lightblue;
+    height: 80%;
+}
+
+
+
+
+#right{
+    background-color: yellow;
+    width: 40%;
+    height: 100%;
+}
+
+
+#footer{
+    background: blue;
+    height: 10%;
+    width: 100vw;
+}
