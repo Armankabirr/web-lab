@@ -72,7 +72,8 @@
 #right{
     height: 100%;
     width: 40%;
-    background-color: aquamarine;
+    background-color: #FEFEFE;
+    border-radius: 5px;
 }
 
 #login-form{
@@ -82,15 +83,63 @@
 
 #login-title{
     width: 100%;
-    background-color: pink;
     padding: 15px 0px 15px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 #login-title p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 700;
     color: #3F46A4;
+}
+
+#inputs{
+    padding-left: 53px;
+    padding-top: 5px;
+}
+
+.input-txt{
+    height: 40px;
+    width: 400px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    border-radius: 5px ;
+    margin-bottom: 15px;
+}
+
+#terms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+#terms p {
+    margin-left: 5px;
+}
+
+#green{
+    color: #6FB570;
+}
+
+#create-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#create-btn{
+    height: 40px;
+    width: 400px;
+    background-color: #3F46A4;
+    border: none;
+    border-radius: 5px;
+    color: #FEFEFE;
+}
+#create-sec p{
+    margin-top: 35px;
 }
