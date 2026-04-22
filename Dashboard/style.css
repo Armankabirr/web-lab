@@ -215,4 +215,25 @@
     background-color: white;
     margin-right: 35px;
     border-radius: 10px;
+    padding-left: 15px;
+}
+
+.capsule{
+    height: 35px;
+    width: 85px;
+    background-color: #C1CDFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.progress-bar.long{
+    width: 320px;
+}
+.in-progress.lightblue{
+    background-color: #536FFE;
+    width: 300px;
 }
