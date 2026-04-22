@@ -220,7 +220,7 @@
 
 .capsule{
     height: 35px;
-    width: 85px;
+    width: 95px;
     background-color: #C1CDFF;
     display: flex;
     flex-direction: row;
@@ -230,10 +230,25 @@
     margin-top: 10px;
 }
 
+.capsule.green{
+    background-color: #9EFE1E;
+}
+.capsule.orange{
+    background-color: #FEBD57;
+}
+
 .progress-bar.long{
     width: 320px;
 }
 .in-progress.lightblue{
     background-color: #536FFE;
     width: 300px;
+}
+.in-progress.green{
+    background-color: #9EFE1E;
+    width: 160px;
+}
+.in-progress.orange{
+    background-color: #FEBD57;
+    width: 180px;
 }
