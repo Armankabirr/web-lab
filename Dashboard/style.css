@@ -19,7 +19,6 @@
     height: 90%;
     width: 100%;
     background-color: #EBEBEB;
-    padding-left: 20px;
     padding-top: 15px;
 }
 
@@ -150,4 +149,31 @@
 .in-progress.red{
     background-color: #F93536;
     width: 130px;
+}
+
+
+#user-task{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tasks{
+    height: 90px;
+    width: 250px;
+    background-color: white;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.tasks p{
+    font-size: 10pt;
+    color: gray;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.tasks h3{
+    font-size: 15pt;
+    font-family: sans-serif;
+    padding-left: 20px;
 }
