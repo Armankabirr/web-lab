@@ -100,8 +100,8 @@
 }
 
 #user-card{
-    height: 210px;
-    width: 450px;
+    height: 220px;
+    width: 480px;
     background: white;
     border-radius: 15px;
     display: flex;
@@ -161,7 +161,7 @@
     height: 90px;
     width: 250px;
     background-color: white;
-    margin-left: 25px;
+    margin-left: 60px;
     border-radius: 10px;
 }
 
@@ -176,4 +176,21 @@
     font-size: 15pt;
     font-family: sans-serif;
     padding-left: 20px;
+}
+
+
+#user-reveneu{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 360px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+
+#rev-info{
+    display: flex;
+    flex-direction: column;
 }
