@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#parent{
+    height: 100vh;
+    width: 100vw;
+}
+
+#nav-bar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#main{
+    height: 90%;
+    width: 100%;
+    background: blue;
+}
+
+#nav-logo{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#title{
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+#nav-items-list{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-item{
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.nav-item.active{
+    color: #C1CDFF;
+}
+
+#nav-user{
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+}
