@@ -135,3 +135,39 @@
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
+.progress{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.progressbar{
+    height: 8px;
+    width: 300px;
+    background-color: lightslategray;
+    border-radius: 15px;
+    
+}
+.in-progressbar{
+    height: 8px;
+    width: 260px;
+    border-radius: 15px;
+}
+
+.in-progressbar.green{
+    background-color: greenyellow;
+}
+.in-progressbar.pink{
+    background-color: rgb(255, 47, 210);
+}
+.in-progressbar.purple{
+    background-color: rgb(145, 35, 248);
+}
+
+
+.progress-txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
