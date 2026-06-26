@@ -20,7 +20,7 @@ function calculateCal(){
     if(total>=801 && total<=1600){
         feedback = "Good progress, keep it balanced!";
     }
-    if(total>=1601 && total<=199){
+    if(total>=1601 && total<=1999){
         feedback = "Almost at your limit!";
     }
     if(total>= goal){
